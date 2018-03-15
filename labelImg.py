@@ -9,6 +9,10 @@ import subprocess
 from functools import partial
 from collections import defaultdict
 
+
+import sys
+def ustr(x):
+    return x
 try:
     from PyQt5.QtGui import *
     from PyQt5.QtCore import *
